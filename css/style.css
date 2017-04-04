@@ -33,16 +33,24 @@ footer, header, hgroup, menu, nav, section {
 	width: 900px;
 	margin: 0 auto;
 }
+.workexprerience{
+	background-color: #808000;
+	font-style: italic;
+	font-size: 30px;
+}
+.welcome{
+	font-size: 40px;
+	}
 .header-image {
   width: 100%;
 }
 .header-image1{
   width: 80%;
 }
-
 .getting-involved .image-block {
     display: inline-block;
-    width: 20%;
+    width: 30%;
+		background-color: orange;
 }
 
 .image-block img {
