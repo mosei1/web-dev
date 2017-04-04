@@ -32,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 .wrap{
 	width: 900px;
 	margin: 0 auto;
+	background-color:#556B2F;
 }
 .workexprerience{
 	background-color: #808000;
@@ -75,13 +76,22 @@ h4{
   background-color: lightblue;
 }
 body{
-  background: #fff;
+  background: #556B2F;
   color: #3e3e3e;
   font-family: Helvetica, sans-serif;
   font-size: 18px;
   line-height: 1.44444;
   height: 100%;
   width: 100%;
+}
+.body1{
+  background-color:#EEE8AA;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.44444;
+  height: 100%;
+	width: 900px;
+	margin: 0 auto;
 }
 p.sansserif {
   font-family: Arial,Helvetica,sans-serif;
@@ -93,6 +103,15 @@ h1{
 	 text-align: center;
 }
 h2{
+	color: white;
+	font-size :40px;
+	text-align: center;
+	border: 0;
+	padding: 2px;
+	vertical-align: baseline
+}
+.home{
+	color: #3e3e3e;
 	font-size :40px;
 	text-align: center;
 	border: 0;
