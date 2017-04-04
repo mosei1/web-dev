@@ -32,6 +32,10 @@ footer, header, hgroup, menu, nav, section {
 .header-image {
   width: 100%;
 }
+#wrap{
+	width:900px;
+	margin: 0 auto;
+}
 
 .getting-involved .image-block {
     display: inline-block;
@@ -42,7 +46,7 @@ footer, header, hgroup, menu, nav, section {
   width: 100%;
 }
 
-div{
+div, nav{
   background-color: lightgrey;
   border: 5px solid gray;
   position:relative;
