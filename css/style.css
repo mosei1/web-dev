@@ -32,10 +32,6 @@ footer, header, hgroup, menu, nav, section {
 .header-image {
   width: 100%;
 }
-#wrap {
-	width: 900px;
-	margin: 0 auto;
-}
 
 .getting-involved .image-block {
     display: inline-block;
@@ -52,6 +48,8 @@ div{
   position:relative;
   padding: 25px;
   margin: 25px;
+	width: 900px;
+	margin: 0 auto;
 }
 
 html{
