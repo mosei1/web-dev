@@ -29,6 +29,19 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+#navbar-container{
+	background-color: #BDB76B;
+  position: relative;
+	padding: 10px 20px;
+}
+#navbar-container a{
+  text-decoration: none;
+  color:green;
+}
+#navbar-container a:active{
+  background-color: #000;
+}
+
 .mypix{
 	float:right;
 }
@@ -61,8 +74,8 @@ footer, header, hgroup, menu, nav, section {
   width: 100%;
 }
 
-div, nav{
-  background-color: lightgrey;
+div{
+  background-color: #e6e6e6;
   border: 5px solid gray;
   position:relative;
   padding: 25px;
@@ -70,13 +83,12 @@ div, nav{
 }
 
 html{
-  box-sizing: border-box;
   height:100%;
   width:100%;
 
 }
 h4{
-  background-color: lightblue;
+  background-color: #b3ffff;
 }
 body{
   background: #556B2F;
@@ -104,6 +116,14 @@ h1{
 	 color: #fff;
 	 background: teal;
 	 text-align: center;
+}
+#welcomenote{
+	color: Green;
+	font-size :40px;
+	text-align: center;
+	border: 0;
+	padding: 2px;
+	vertical-align: baseline
 }
 h2{
 	color: white;
