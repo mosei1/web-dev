@@ -100,7 +100,7 @@ body{
   width: 100%;
 }
 .body1{
-  background-color:#EEE8AA;
+  background-color:#BDB76B;
   font-family: Helvetica, sans-serif;
   font-size: 18px;
   line-height: 1.44444;
@@ -120,6 +120,7 @@ h1{
 #welcomenote{
 	color: Green;
 	font-size :40px;
+	font-style: italic;
 	text-align: center;
 	border: 0;
 	padding: 2px;
