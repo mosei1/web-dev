@@ -29,27 +29,37 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+/*navigation*/
 #navbar-container{
 	background-color: #BDB76B;
   position: relative;
 	padding: 10px 20px;
+	text-align: center;
+	font-style: italic;
 }
 #navbar-container a{
   text-decoration: none;
-  color:green;
+  color:#ffffff;
 }
 #navbar-container a:active{
   background-color: #000;
 }
-
+/* MAP*/
+#map {
+        height: 400px;
+       }
+#navigation a:hover{
+	color: #ffffff;
+}
 .mypix{
 	float:right;
 }
 .wrap{
 	width: 900px;
 	margin: 0 auto;
-	background-color:#556B2F;
+	background-color:#fff;
 }
+/*experience page css style*/
 .workexprerience{
 	background-color: #808000;
 	font-style: italic;
@@ -67,14 +77,14 @@ footer, header, hgroup, menu, nav, section {
 .getting-involved .image-block {
     display: inline-block;
     width: 30%;
-		background-color: orange;
+		background-color: #BDB76B;
 }
 
 .image-block img {
   width: 100%;
 }
 
-div{
+div.base{
   background-color: #e6e6e6;
   border: 5px solid gray;
   position:relative;
@@ -88,7 +98,7 @@ html{
 
 }
 h4{
-  background-color: #b3ffff;
+  background-color: #00cccc;
 }
 body{
   background: #556B2F;
@@ -100,7 +110,7 @@ body{
   width: 100%;
 }
 .body1{
-  background-color:#BDB76B;
+  background-color:#fff;
   font-family: Helvetica, sans-serif;
   font-size: 18px;
   line-height: 1.44444;
@@ -116,15 +126,6 @@ h1{
 	 color: #fff;
 	 background: teal;
 	 text-align: center;
-}
-#welcomenote{
-	color: Green;
-	font-size :40px;
-	font-style: italic;
-	text-align: center;
-	border: 0;
-	padding: 2px;
-	vertical-align: baseline
 }
 h2{
 	color: white;
