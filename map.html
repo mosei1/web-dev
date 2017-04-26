@@ -8,40 +8,40 @@
   </head>
   <body class="body1">
     <nav id="navbar-container">
-      <a href="map.html">Map</a>
+       <a href="map.html">Map</a>
        <a href="index.html">. Home</a>
        <a href="work.html">. Experience</a>
        <a href="extracurricular.html">. Activities</a>
        <a href="https://www.linkedin.com/in/maa-akua-ompomaah-osei">. Linkedin page</a>
-   </nav>
-   <header>
-      <h1 class ="welcome">Home Country Location</h1>
-   </header>
-   <div id="map"></div>
-   <script>
-   var map;
-   function initMap() {
-       var locations = {lat: 5.642595, lng:-0.240434};
-       var map = new google.maps.Map(document.getElementById('map'), {
-         zoom: 10,
-         center: new google.maps.LatLng(5.642595, -0.240434)
-       });
-       marker = new google.maps.Marker({
-         map: map,
-         draggable: true,
-         animation: google.maps.Animation.DROP,
-         position: {lat: 5.642595, lng:-0.240434}
-       });
-       marker.addListener('click', toggleBounce);
-     }
+    </nav>
+    <header>
+       <h1 class ="welcome">Home Country Location</h1>
+    </header>
+    <div id="map"></div>
+    <script>
+         var map;
+         function initMap() {
+             var locations = {lat: 5.642595, lng:-0.240434};
+             var map = new google.maps.Map(document.getElementById('map'), {
+               zoom: 10,
+               center: new google.maps.LatLng(5.642595, -0.240434)
+             });
+             marker = new google.maps.Marker({
+               map: map,
+               draggable: true,
+               animation: google.maps.Animation.DROP,
+               position: {lat: 5.642595, lng:-0.240434}
+             });
+             marker.addListener('click', toggleBounce);
+           }
 
-     function toggleBounce() {
-       if (marker.getAnimation() !== null) {
-         marker.setAnimation(null);
-       } else {
-         marker.setAnimation(google.maps.Animation.BOUNCE);
-       }
-     }
+          function toggleBounce() {
+             if (marker.getAnimation() !== null) {
+               marker.setAnimation(null);
+             } else {
+               marker.setAnimation(google.maps.Animation.BOUNCE);
+             }
+           }
      </script>
      <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7drkA3ouig5Dz6hqST5gQ-6dzja_B2SI&callback=initMap">
